@@ -6,11 +6,11 @@
 
 % *************************************************************************
 % STEP 1: define model-set directories & save files------------------------
-% ReadFile_directory      = '/Users/jimsebi/Documents/14_Manuscripts/2022_PICES_SmallPelagicFish/EwEmodel_database/1_ECOBASE_queries/ECOBASE_Atlantic/';
+ReadFile_directory      = '/1_ECOBASE_queries/ECOBASE_Atlantic/';
 
-% ReadFile_directory      = '/Users/jimsebi/Documents/14_Manuscripts/2022_PICES_SmallPelagicFish/EwEmodel_database/1_ECOBASE_queries/ECOBASE_Pacific/';
+% ReadFile_directory      = '/1_ECOBASE_queries/ECOBASE_Pacific/';
 
-ReadFile_directory      = '/Users/jimsebi/Documents/14_Manuscripts/2022_PICES_SmallPelagicFish/EwEmodel_database/1_ECOBASE_queries/ECOBASE_OtherRegions/';
+% ReadFile_directory      = '/1_ECOBASE_queries/ECOBASE_OtherRegions/';
 % *************************************************************************
 
 

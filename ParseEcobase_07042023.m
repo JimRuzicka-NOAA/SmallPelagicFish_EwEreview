@@ -243,7 +243,7 @@
 filename            = ['http://sirs.agrocampus-ouest.fr/EcoBase/php/webser/soap-client.php?no_model=' num2str(target_EwEmodel)];
 theStruct           = parseXML(filename);
 
-SaveFile_directory	= '/Users/jimsebi/Documents/14_Manuscripts/2022_PICES_SmallPelagicFish/EwEmodel_database/';
+SaveFile_directory	= '/1_ECOBASE_queries/';
 SaveFile_label      = ['ECOBASE_model-' num2str(target_EwEmodel) '_' date()];
 SaveFile            = [SaveFile_directory SaveFile_label];
 % *************************************************************************
