@@ -243,11 +243,11 @@ ReadFile_name               = 'ECOBASE_model-7_09-Apr-2022.mat'; % GOOD
 
 ReadFile                    = [ReadFile_directory ReadFile_name];
 
-ExcelFile_directory         = '/Users/jimsebi/Documents/14_Manuscripts/2022_PICES_SmallPelagicFish/ECOTRAN_codebase_SPF/';
+ExcelFile_directory         = '/Matlab_script/';
 blankExcelFile_name         = 'FLOGTWOPI_03252022.xlsm';
 BlankFile                   = [ExcelFile_directory blankExcelFile_name];
 
-SaveFile_directory          = '/Users/jimsebi/Documents/14_Manuscripts/2022_PICES_SmallPelagicFish/EwEmodel_database/2_ECOTRAN_versions/ECOTRAN_Atlantic/Atlantic_ECOTRAN_K-path_versions/';
+SaveFile_directory          = '/2_VisualBasic_versions/';
 % *************************************************************************
 
 
@@ -309,7 +309,7 @@ num_primaryproducer         = length(looky_primaryproducer);
 
 % step 2d: read in ECOTRAN name and group type definitions ----------------
 % (NameTranslator_Ecobase_04042022.xlsx)
-NameTranslator_directory	= '/Users/jimsebi/Documents/14_Manuscripts/2022_PICES_SmallPelagicFish/2_analysis_code/';
+NameTranslator_directory	= '/4_Metadata/';
 NameTranslator_file         = 'EcoBase_nametranslator_08122023.mat';
 load([NameTranslator_directory NameTranslator_file], 'ecobase_nametranslator')
 % *************************************************************************
